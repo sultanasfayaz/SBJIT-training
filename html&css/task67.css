@@ -1,0 +1,37 @@
+ body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #007BFF;
+    padding: 10px 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 16px;
+    display: inline-block; /* show items in a row */
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #0056b3;
+    border-radius: 4px;
+}
+
+.cars{
+    display:flex;
+    gap:10px;
+}
+
+.cars img{
+    width:300px;
+    height:200px;
+    border:2px solid black;
+}
+
+.cars img:hover{
+    border-color:red;
+}
